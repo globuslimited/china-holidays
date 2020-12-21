@@ -1,6 +1,6 @@
 {
   "name": "china-holidays",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/globuslimited/chinese-holidays.git"
+    "url": "git+https://github.com/globuslimited/china-holidays.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/globuslimited/chinese-holidays/issues"
+    "url": "https://github.com/globuslimited/china-holidays/issues"
   },
-  "homepage": "https://github.com/globuslimited/chinese-holidays#readme"
+  "homepage": "https://github.com/globuslimited/china-holidays#readme"
 }
