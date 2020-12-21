@@ -22,3 +22,9 @@ export const isWorkReplacement = (day, holidays = data) => {
     const holiday = getHoliday(day, holidays);
     return holiday != null && holiday.type === 'workingday'
 }
+
+export default {
+    isHoliday,
+    isWorkReplacement,
+    getHoliday
+}
