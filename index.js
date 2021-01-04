@@ -6,11 +6,11 @@ import data2021 from "./data/2021.json";
 const data = data2018.concat(data2019).concat(data2020).concat(data2021);
 
 const startOfTheDay = date => {
-  return date.clone().setHours(0, 0, 0, 0);
+  return new Date(date.getTime()).setHours(0, 0, 0, 0);
 };
 
 const endOfTheDay = date => {
-  return date.clone().setHours(23, 59, 59, 999);
+  return new Date(date.getTime()).setHours(23, 59, 59, 999);
 };
 
 export const getHoliday = (day = new Date(), holidays = data) => {
