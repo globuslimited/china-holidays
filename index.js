@@ -16,7 +16,7 @@ const endOfTheDay = date => {
 export const getHoliday = (day = new Date(), holidays = data) => {
   return holidays.find(({ range }) => {
     const start = startOfTheDay(new Date(range[0]));
-    const end = endOfTheDay(new Date(range[1] && range[0]));
+    const end = endOfTheDay(new Date(range[1] || range[0]));
     return day >= start && day <= end;
   });
 };
